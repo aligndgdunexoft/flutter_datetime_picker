@@ -366,7 +366,7 @@ class _RenderPickerView extends StatelessWidget {
         child: Column(
           children: <Widget>[
             if (route.showTitleActions == true) titleActionsView,
-            Expanded(child: itemView),
+            itemView,
           ],
         ),
       ),
